@@ -13,8 +13,6 @@ Este repositorio contiene material, prácticas y proyectos de la materia **Redes
 - Iptables  
 - Nmap, Netcat y otras utilidades de red  
 
-Porque la cursada sin memes no sería cursada 😅  
-
 ![Meme de redes](/Meme/bash.jpg)  
 
 ---
