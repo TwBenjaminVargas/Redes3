@@ -1,0 +1,14 @@
+$TTL 86400
+@   IN  SOA dns1.zona1.local. admin.zona1.local. (
+        2025101401 ; Serial
+        3600       ; Refresh
+        1800       ; Retry
+        1209600    ; Expire
+        86400 )    ; Minimum TTL
+
+    IN  NS  dns1.zona1.local.
+    IN  NS  dns2.zona2.local.
+
+dns1 IN  A   192.168.30.240
+dns2 IN  A   192.168.30.241
+www IN  A   192.168.30.11
