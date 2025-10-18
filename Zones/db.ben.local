@@ -1,0 +1,13 @@
+$TTL 1D
+@   IN  SOA     dns1.ben.local. admin.ben.local. (
+        2025101701 ; serial
+        1H         ; refresh
+        10M        ; retry
+        1W         ; expire
+        1D )       ; minimum
+
+    IN  NS  dns1.zona1.local.
+
+; Servidor de correo
+mail    IN  A       192.168.10.3 ; ip servidor de correo
+@       IN  MX 10   mail.dominio1.local.
