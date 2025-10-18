@@ -6,7 +6,7 @@ $TTL 1D
         1W         ; expire
         1D )       ; minimum
 
-    IN  NS  dns1.zona1.local.
+    IN  NS  dns1.ben.local.
 
 ; Servidor de correo
 mail    IN  A       192.168.10.3 ; ip servidor de correo
